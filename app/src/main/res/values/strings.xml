@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">dazuoye</string>
+    <style name="list_item">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+
+    </style>
+    <style name="buttonadd">
+        <item name="color">@color/blue</item>
+    </style>
+</resources>

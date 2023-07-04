@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img1">
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="赛程安排"
+        android:onClick="go2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="球员详情"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="go3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="赛场记录" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:text="添加" />
+  </LinearLayout>
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <EditText
+          android:id="@+id/in"
+          android:layout_width="60dp"
+          android:layout_height="50dp"
+          android:selectAllOnFocus="true"
+          android:text="number"
+          android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/in1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:selectAllOnFocus="true"
+        android:text="input"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/in2"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:selectAllOnFocus="true"
+        android:text="input"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/in3"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:selectAllOnFocus="true"
+        android:text="input"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/in4"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:selectAllOnFocus="true"
+        android:text="input"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/in5"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:selectAllOnFocus="true"
+        android:text="input"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/in6"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:selectAllOnFocus="true"
+        android:text="input"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/in7"
+        android:layout_width="50dp"
+
+        android:layout_height="50dp"
+        android:selectAllOnFocus="true"
+        android:text="input"
+        android:textSize="15sp"/>
+
+
+    </LinearLayout>
+
+
+     <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:orientation="horizontal">
+
+         <TextView
+
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:textSize="20dp"
+             android:text="战队" />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="号码" />
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="出场"/>
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="首发"/>
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="进球"/>
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="黄牌"/>
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="红牌"/>
+
+         </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ls"
+        android:layout_width="409dp"
+        android:layout_height="682dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+
+</LinearLayout>

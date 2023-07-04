@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dazuoye">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="球球球"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dazuoye"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bisai"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".soccer"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".loss"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".draw"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".add"
+            android:exported="true">
+
+        </activity>
+        <activity
+        android:name=".win"
+        android:exported="true">
+
+    </activity>
+    </application>
+
+</manifest>
